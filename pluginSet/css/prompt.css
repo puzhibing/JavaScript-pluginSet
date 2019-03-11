@@ -1,0 +1,80 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+body>.tp{
+    display: none;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    color: #880015;
+    top: 0px;
+    z-index: 999;
+    box-shadow: 0px 3px 8px #757575;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 50px;
+    animation: tp 5s;
+    -moz-animation: tp 5s; /* Firefox */
+    -webkit-animation: tp 5s; /* Safari and Chrome */
+    -o-animation: tp 5s; /* Opera */
+}
+
+@keyframes tp {
+    0%{
+        height: 0px;
+    }
+    20%{
+        height: 50px;
+    }
+}
+
+@-webkit-keyframes tp {
+    0%{
+        height: 0px;
+    }
+    20%{
+        height: 50px;
+    }
+}
+
+
+body>.rp{
+    display: none;
+    height: 30px;
+    width: 180px;
+    position: fixed;
+    color: #880015;
+    top: 10px;
+    right: 0px;
+    z-index: 999;
+    box-shadow: 0px 0px 8px #757575;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    animation: rp 5s;
+    -moz-animation: rp 5s; /* Firefox */
+    -webkit-animation: rp 5s; /* Safari and Chrome */
+    -o-animation: rp 5s; /* Opera */
+}
+
+@keyframes rp {
+    0%{
+        width: 0px;
+    }
+    20%{
+        width: 180px;
+    }
+}
+
+@-webkit-keyframes rp {
+    0%{
+        width: 0px;
+    }
+    20%{
+        width: 180px;
+    }
+}
